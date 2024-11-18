@@ -1,0 +1,111 @@
+/* Contenedor principal */
+.tutor-profile-container {
+    font-family: Arial, sans-serif;
+    color: #333;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Cabecera del perfil */
+  .profile-header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Avatar circular */
+  .profile-avatar {
+    margin: 0 auto;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 5px solid #007bff;
+    background-color: #fff;
+  }
+  
+  .profile-avatar img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  /* Nombre y eslogan */
+  .profile-name {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  .profile-slogan {
+    font-size: 14px;
+    color: #777;
+  }
+  
+  /* Detalles del perfil */
+  .profile-details {
+    background: #ffffff;
+    padding: 20px 30px;
+    margin: 20px auto;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    text-align: left;
+  }
+  
+  .profile-details p {
+    font-size: 16px;
+    margin: 10px 0;
+  }
+  
+  .profile-details strong {
+    color: #555;
+  }
+  
+  /* Descripción */
+  .profile-description {
+    margin-top: 20px;
+    font-style: italic;
+    color: #777;
+  }
+  
+  /* Horarios */
+  .profile-schedule {
+    margin-top: 30px;
+  }
+  
+  .profile-schedule h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .schedule-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .schedule-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+  }
+  
+  .schedule-button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .schedule-button:hover {
+    background-color: #218838;
+  }
+  

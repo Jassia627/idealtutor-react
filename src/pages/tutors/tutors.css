@@ -1,0 +1,32 @@
+/* src/pages/Tutors/Tutors.css */
+.tutors-container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 2rem;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .tutors-container h1 {
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  
+  .tutors-container ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .tutors-container li {
+    background: #f9f9f9;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .tutors-container li p {
+    margin: 0.5rem 0;
+  }
+  

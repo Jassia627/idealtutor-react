@@ -1,0 +1,99 @@
+.profile-container {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+  }
+  
+  .profile-header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .profile-avatar {
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
+  .profile-name {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .profile-role {
+    font-size: 16px;
+    color: #666;
+  }
+  
+  .profile-tabs {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .profile-tab {
+    padding: 10px 20px;
+    margin: 0 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .profile-tab.active,
+  .profile-tab:hover {
+    background-color: #0056b3;
+  }
+  
+  .profile-content {
+    text-align: left;
+  }
+  
+  .tab-content h2 {
+    font-size: 20px;
+    color: #333;
+  }
+  
+  .schedule-form {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+  }
+  
+  .schedule-form label {
+    font-size: 14px;
+  }
+  
+  .schedule-form input {
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .btn-add-schedule,
+  .btn-delete-schedule {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .btn-delete-schedule {
+    background-color: #dc3545;
+  }
+  
+  .btn-add-schedule:hover,
+  .btn-delete-schedule:hover {
+    opacity: 0.9;
+  }
+  

@@ -1,0 +1,109 @@
+/* Estilo general de la página */
+.about-page-container {
+  padding: 40px 20px;
+  background-color: #f5f5f5;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+/* Encabezado */
+.about-header h1 {
+  font-size: 2.5rem;
+  color: #007bff;
+  margin-bottom: 10px;
+}
+
+.about-header p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  margin: 0 auto;
+  max-width: 600px;
+}
+
+.about-header span {
+  color: #ff9800;
+  font-weight: bold;
+}
+
+/* Tarjetas de misión y visión */
+.about-mission {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 40px 0;
+  gap: 20px;
+}
+
+.mission-card {
+  background: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 300px;
+  flex: 1;
+}
+
+.mission-card h2 {
+  color: #007bff;
+  margin-bottom: 10px;
+}
+
+.mission-card p {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+/* Redes sociales */
+.social-links h2 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.social-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.social-btn {
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.social-btn.facebook {
+  background-color: #3b5998;
+}
+
+.social-btn.facebook:hover {
+  background-color: #2d4373;
+}
+
+.social-btn.twitter {
+  background-color: #1da1f2;
+}
+
+.social-btn.twitter:hover {
+  background-color: #0a85d9;
+}
+
+.social-btn.instagram {
+  background-color: #e4405f;
+}
+
+.social-btn.instagram:hover {
+  background-color: #d02749;
+}
+
+.social-btn.tiktok {
+  background-color: #000;
+}
+
+.social-btn.tiktok:hover {
+  background-color: #444;
+}

@@ -1,0 +1,81 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #3498db;
+  color: #ffffff;
+  font-family: Arial, sans-serif;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  height: 50px;
+  margin-right: 50px;
+}
+
+.brand-name {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.nav-links a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #ecf0f1;
+}
+
+.profile-btn,
+.logout-btn,
+.btn-primary,
+.register-btn {
+  padding: 8px 15px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+.profile-btn {
+  background-color: #2ecc71;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+}
+
+.logout-btn {
+  background-color: #e74c3c;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-primary {
+  background-color: #2980b9;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+}
+
+.register-btn {
+  background-color: #f1c40f;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+}

@@ -1,0 +1,68 @@
+/* Estilos para la página informativa */
+.informative-page {
+  font-family: Arial, sans-serif;
+}
+
+.hero {
+  text-align: center;
+  padding: 50px 20px;
+  background-color: #f0f8ff;
+  color: #333;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+.why-choose-us,
+.popular-subjects {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.features,
+.subjects {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.feature-card,
+.subject-card {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  width: 200px;
+  padding: 20px;
+  text-align: center;
+}
+
+.feature-card img,
+.subject-card img {
+  width: 60px;
+  height: 60px;
+  margin-bottom: 10px;
+}
+
+.feature-card h3,
+.subject-card h3 {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.feature-card p,
+.subject-card p {
+  font-size: 14px;
+  color: #555;
+}
